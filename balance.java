@@ -11,8 +11,9 @@ class balance
     public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter any Chemical Equation without (OH) molecule");
+        System.out.println("Enter any Chemical Equation: ");
         String equation=sc.nextLine();
+        System.out.println("Bruteforcing all combinations...");
         String eq=equation;
        
         eq=eq.replace("->","=");
